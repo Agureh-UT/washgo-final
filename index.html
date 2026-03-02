@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Crystal Crown — Nairobi's #1 mobile car detailing and house cleaning service. We come to you. Professional results, eco-friendly products. Book online today.">
+  <meta property="og:title" content="Crystal Crown — Mobile Car Detailing & House Cleaning Nairobi">
+  <meta property="og:description" content="Professional mobile car detailing and house cleaning in Nairobi. We come directly to your door. Book online in minutes.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="Assets/logo2.png">
+  <link rel="icon" type="image/png" href="Assets/logo2.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="globals.css">
+  <script src="globals.js" defer></script>
+  <title>Crystal Crown — Mobile Car Detailing & House Cleaning Nairobi</title>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header" role="banner">
+  <nav class="nav" aria-label="Main navigation">
+    <div class="nav__container">
+      <a href="index.html" class="nav__logo">
+        <img src="Assets/logo2.png" alt="Crystal Crown" class="nav__logo-img">
+        <span class="nav__logo-text">Crystal Crown</span>
+      </a>
+      <ul class="nav__links" role="list">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="services.html" class="nav__link">Services</a></li>
+        <li><a href="pricing.html" class="nav__link">Pricing</a></li>
+        <li><a href="gallery.html" class="nav__link">Gallery</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="blog.html" class="nav__link">Blog</a></li>
+        <li><a href="contact.html" class="nav__link">Contact</a></li>
+      </ul>
+      <div class="nav__actions">
+        <a href="tel:+254710304055" class="nav__phone" aria-label="Call Crystal Crown">+254 710 304 055</a>
+        <a href="booking.html" class="btn btn--primary btn--sm">Book Now</a>
+        <button class="nav__toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-mobile-panel">
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+        </button>
+      </div>
+    </div>
+    <div class="nav__mobile-panel" id="nav-mobile-panel" role="dialog" aria-label="Mobile navigation">
+      <a href="index.html" class="nav__mobile-link">Home</a>
+      <a href="services.html" class="nav__mobile-link">Services</a>
+      <a href="pricing.html" class="nav__mobile-link">Pricing</a>
+      <a href="gallery.html" class="nav__mobile-link">Gallery</a>
+      <a href="about.html" class="nav__mobile-link">About</a>
+      <a href="blog.html" class="nav__mobile-link">Blog</a>
+      <a href="contact.html" class="nav__mobile-link">Contact</a>
+      <div class="nav__mobile-cta">
+        <a href="booking.html" class="btn btn--primary">Book a Service</a>
+      </div>
+    </div>
+    <div class="nav__backdrop" aria-hidden="true"></div>
+  </nav>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero hero--video" aria-label="Crystal Crown hero">
+    <video class="hero__video" autoplay muted loop playsinline preload="auto" aria-hidden="true">
+      <source src="Assets/Video.mp4" type="video/mp4">
+    </video>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow">Nairobi's #1 Mobile Cleaning Service</span>
+      <h1 class="hero__title">Car Detailing &amp;<br>House Cleaning —<br>At Your Door</h1>
+      <p class="hero__subtitle">Professional-grade cleaning delivered directly to your home, office, or parking lot across Nairobi. Book in minutes. We confirm in 30.</p>
+      <div class="hero__actions">
+        <a href="booking.html" class="btn btn--primary btn--xl">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          Book a Service
+        </a>
+        <a href="https://wa.me/254710304055?text=Hello%20Crystal%20Crown!%20I%20need%20a%20quote." class="btn btn--whatsapp btn--xl" target="_blank" rel="noopener noreferrer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zm-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.981.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884zm8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          WhatsApp Us
+        </a>
+      </div>
+    </div>
+    <div class="hero__scroll" aria-hidden="true">
+      <svg class="hero__scroll-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- VALUE PROPOSITION -->
+  <section class="section section--surface-2" aria-labelledby="value-prop-title">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__eyebrow">Why Crystal Crown</span>
+        <h2 class="section__title" id="value-prop-title">Car care &amp; home cleaning, without compromise</h2>
+        <p class="section__subtitle">We bring the salon to your car and the deep clean to your home — wherever you are in Nairobi.</p>
+      </div>
+      <div class="grid-3 reveal">
+        <div class="benefit-card">
+          <div class="benefit-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h3 class="benefit-card__title">At Your Door — Any Time</h3>
+          <p class="benefit-card__desc">No queues. No trips. We come to your home, office, or estate parking. Schedule at a time that suits your day.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20l10-18 10 18H2z"/><line x1="12" y1="10" x2="12" y2="14"/><circle cx="12" cy="17" r="0.5" fill="currentColor"/></svg>
+          </div>
+          <h3 class="benefit-card__title">Eco-Friendly Products</h3>
+          <p class="benefit-card__desc">All our products are biodegradable and pH-safe. Our steam technology uses up to 80% less water than traditional car washes.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+          </div>
+          <h3 class="benefit-card__title">Professional &amp; Insured</h3>
+          <p class="benefit-card__desc">Every team member is trained, vetted, and fully insured. Our 4.9-star rating and free re-clean guarantee mean you can book with total confidence.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES OVERVIEW -->
+  <section class="section section--surface" id="services" aria-labelledby="services-title">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__eyebrow">What We Offer</span>
+        <h2 class="section__title" id="services-title">Our Services</h2>
+        <p class="section__subtitle">From a quick exterior wash to a full home deep clean — Crystal Crown has you covered.</p>
+      </div>
+
+      <!-- Tabs -->
+      <div data-tabs>
+        <div class="tabs__nav" role="tablist" aria-label="Service categories">
+          <button class="tab-btn" data-tab="tab-car" role="tab" aria-selected="true" aria-controls="tab-car">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 17H3a2 2 0 01-2-2V5a2 2 0 012-2h11l5 5v9a2 2 0 01-2 2h-3"/><circle cx="7.5" cy="17.5" r="2.5"/><circle cx="17.5" cy="17.5" r="2.5"/></svg>
+            Car Detailing
+          </button>
+          <button class="tab-btn" data-tab="tab-house" role="tab" aria-selected="false" aria-controls="tab-house">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            House Cleaning
+          </button>
+        </div>
+
+        <!-- CAR DETAILING TAB -->
+        <div class="tab-panel" id="tab-car" role="tabpanel" aria-label="Car Detailing services">
+          <div class="grid-auto--lg reveal">
+
+            <article class="service-card">
+              <div class="service-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16M4 12l4-4M4 12l4 4"/><path d="M8 8l2-2 4 0 4 4M8 16l2 2 4 0 4-4"/></svg>
+              </div>
+              <span class="service-card__eyebrow">Car Detailing</span>
+              <h3 class="service-card__title">Exterior Wash</h3>
+              <p class="service-card__desc">A thorough hand wash removes road dirt, grime, and dust from your vehicle's body. Includes a clean-water rinse and hand-dry to prevent water spots.</p>
+              <ul class="service-card__includes" aria-label="Service includes">
+                <li>Full hand wash</li>
+                <li>Clean water rinse</li>
+                <li>Hand-dry &amp; water spot prevention</li>
+                <li>Wheel &amp; tyre clean</li>
+                <li>Window exterior wipe</li>
+              </ul>
+              <div class="service-card__footer">
+                <div class="service-card__meta">
+                  <span class="service-card__price">From Ksh 500</span>
+                  <span class="service-card__duration">25–40 min</span>
+                </div>
+                <a href="booking.html?service=exterior_wash" class="btn btn--primary btn--sm">Book Now</a>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div class="service-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <span class="service-card__eyebrow">Car Detailing</span>
+              <h3 class="service-card__title">Waxing &amp; Polishing</h3>
+              <p class="service-card__desc">Restore your car's showroom shine. Professional wax protects paint from UV rays and minor scratches while polishing eliminates surface swirl marks.</p>
+              <ul class="service-card__includes" aria-label="Service includes">
+                <li>Machine polish application</li>
+                <li>Carnauba wax coat</li>
+                <li>UV &amp; scratch protection</li>
+                <li>Swirl mark removal</li>
+                <li>Mirror-finish result</li>
+              </ul>
+              <div class="service-card__footer">
+                <div class="service-card__meta">
+                  <span class="service-card__price">From Ksh 1,200</span>
+                  <span class="service-card__duration">45–60 min</span>
+                </div>
+                <a href="booking.html?service=waxing_polishing" class="btn btn--primary btn--sm">Book Now</a>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div class="service-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2h8M9 2v1M15 2v1M3 7l1 12a2 2 0 002 2h12a2 2 0 002-2l1-12M7 7h10"/></svg>
+              </div>
+              <span class="service-card__eyebrow">Car Detailing</span>
+              <h3 class="service-card__title">Interior Cleaning</h3>
+              <p class="service-card__desc">Restore your cabin to a fresh, hygienic state. We vacuum every surface, wipe dashboards, door panels, and consoles, and eliminate stains and odours.</p>
+              <ul class="service-card__includes" aria-label="Service includes">
+                <li>Full vacuum (seats, boot, carpets)</li>
+                <li>Dashboard &amp; console wipe</li>
+                <li>Door panel cleaning</li>
+                <li>Air vent cleaning</li>
+                <li>Odour treatment</li>
+              </ul>
+              <div class="service-card__footer">
+                <div class="service-card__meta">
+                  <span class="service-card__price">From Ksh 800</span>
+                  <span class="service-card__duration">30–50 min</span>
+                </div>
+                <a href="booking.html?service=interior_cleaning" class="btn btn--primary btn--sm">Book Now</a>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div class="service-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c3-3 6-6 6-10A6 6 0 006 12c0 4 3 7 6 10z"/><path d="M12 22V12"/></svg>
+              </div>
+              <span class="service-card__eyebrow">Car Detailing</span>
+              <h3 class="service-card__title">Steam Cleaning</h3>
+              <p class="service-card__desc">High-temperature steam sanitizes upholstery, eliminates bacteria, allergens, and stubborn stains — all with minimal water use and no harsh chemicals.</p>
+              <ul class="service-card__includes" aria-label="Service includes">
+                <li>Steam sanitization</li>
+                <li>Upholstery deep clean</li>
+                <li>Carpet steam treatment</li>
+                <li>Bacteria &amp; allergen removal</li>
+                <li>80% less water than traditional wash</li>
+              </ul>
+              <div class="service-card__footer">
+                <div class="service-card__meta">
+                  <span class="service-card__price">From Ksh 1,500</span>
+                  <span class="service-card__duration">45–60 min</span>
+                </div>
+                <a href="booking.html?service=steam_cleaning" class="btn btn--primary btn--sm">Book Now</a>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div class="service-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93L17.65 6.35M6.35 17.65L4.93 19.07M4 12H2M22 12h-2M19.07 19.07L17.65 17.65M6.35 6.35L4.93 4.93M12 2V4M12 20v2"/></svg>
+              </div>
+              <span class="service-card__eyebrow">Car Detailing</span>
+              <h3 class="service-card__title">Engine Bay Cleaning</h3>
+              <p class="service-card__desc">Remove built-up grease, oil, and grime from your engine compartment safely using professional degreasers and low-pressure water — protecting sensitive electronics.</p>
+              <ul class="service-card__includes" aria-label="Service includes">
+                <li>Degreaser application</li>
+                <li>Low-pressure rinse</li>
+                <li>Engine bay hand-dry</li>
+                <li>Rubber &amp; plastic dressing</li>
+                <li>Post-clean inspection</li>
+              </ul>
+              <div class="service-card__footer">
+                <div class="service-card__meta">
+                  <span class="service-card__price">From Ksh 1,500</span>
+                  <span class="service-card__duration">30–45 min</span>
+                </div>
+                <a href="booking.html?service=engine_bay" class="btn btn--primary btn--sm">Book Now</a>
+              </div>
+            </article>
+
+            <article class="service-card service-card--featured">
+              <span class="service-card__badge">Best Value</span>
+              <div class="service-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77 5.82 21.02 7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <span class="service-card__eyebrow">Complete Package</span>
+              <h3 class="service-card__title">Full Detailing Package</h3>
+              <p class="service-card__desc">The ultimate Crystal Crown experience. All five services combined into one session — your car leaves looking and smelling brand new, inside and out.</p>
+              <ul class="service-card__includes" aria-label="Service includes">
+                <li>All 5 services above included</li>
+                <li>Priority booking slot</li>
+                <li>Complimentary air freshener</li>
+                <li>Before &amp; after photos</li>
+                <li>Free re-clean guarantee</li>
+              </ul>
+              <div class="service-card__footer">
+                <div class="service-card__meta">
+                  <span class="service-card__price">From Ksh 3,500</span>
+                  <span class="service-card__duration">90–120 min</span>
+                </div>
+                <a href="booking.html?service=full_detailing" class="btn btn--primary btn--sm">Book Package</a>
+              </div>
+            </article>
+
+          </div>
+          <div class="text-center" style="margin-top: 2.5rem;">
+            <a href="services.html#car-detailing" class="btn btn--secondary">View All Car Detailing Services</a>
+          </div>
+        </div>
+
+        <!-- HOUSE CLEANING TAB -->
+        <div class="tab-panel" id="tab-house" role="tabpanel" aria-label="House Cleaning services">
+          <div class="grid-auto reveal">
+
+            <article class="service-card">
+              <div class="service-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+              </div>
+              <span class="service-card__eyebrow">House Cleaning</span>
+              <h3 class="service-card__title">Regular Home Clean</h3>
+              <p class="service-card__desc">A thorough routine clean to keep your home fresh and tidy. Perfect for weekly or bi-weekly maintenance to maintain a consistently clean living space.</p>
+              <ul class="service-card__includes" aria-label="Service includes">
+                <li>Dusting all surfaces &amp; fans</li>
+                <li>Vacuuming carpets &amp; rugs</li>
+                <li>Mopping hard floors</li>
+                <li>Bathroom &amp; kitchen clean</li>
+                <li>Trash removal</li>
+              </ul>
+              <div class="service-card__footer">
+                <div class="service-card__meta">
+                  <span class="service-card__price">From Ksh 1,500</span>
+                  <span class="service-card__duration">2–3 hours</span>
+                </div>
+                <a href="booking.html?service=regular_clean" class="btn btn--primary btn--sm">Book Now</a>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div class="service-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/><path d="M11 8v6M8 11h6"/></svg>
+              </div>
+              <span class="service-card__eyebrow">House Cleaning</span>
+              <h3 class="service-card__title">Deep Clean</h3>
+              <p class="service-card__desc">A comprehensive deep clean that goes beyond the surface. Ideal as a first-time clean, post-renovation, or quarterly reset for your home.</p>
+              <ul class="service-card__includes" aria-label="Service includes">
+                <li>Everything in Regular Clean</li>
+                <li>Inside cabinets &amp; appliances</li>
+                <li>Grout scrubbing &amp; tile joints</li>
+                <li>Behind &amp; under furniture</li>
+                <li>Full window cleaning (inside)</li>
+              </ul>
+              <div class="service-card__footer">
+                <div class="service-card__meta">
+                  <span class="service-card__price">From Ksh 3,000</span>
+                  <span class="service-card__duration">4–6 hours</span>
+                </div>
+                <a href="booking.html?service=deep_clean" class="btn btn--primary btn--sm">Book Now</a>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div class="service-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg>
+              </div>
+              <span class="service-card__eyebrow">House Cleaning</span>
+              <h3 class="service-card__title">Move-In / Move-Out</h3>
+              <p class="service-card__desc">Full property sanitization for tenancy handovers. Landlords love it for preparing properties; tenants use it to secure their deposits.</p>
+              <ul class="service-card__includes" aria-label="Service includes">
+                <li>Everything in Deep Clean</li>
+                <li>Full property sanitization</li>
+                <li>Inside all wardrobes &amp; storage</li>
+                <li>Final walk-through inspection</li>
+                <li>Debris &amp; garbage removal</li>
+              </ul>
+              <div class="service-card__footer">
+                <div class="service-card__meta">
+                  <span class="service-card__price">From Ksh 3,500</span>
+                  <span class="service-card__duration">4–8 hours</span>
+                </div>
+                <a href="booking.html?service=move_in_out" class="btn btn--primary btn--sm">Book Now</a>
+              </div>
+            </article>
+
+            <article class="service-card">
+              <div class="service-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+              </div>
+              <span class="service-card__eyebrow">House Cleaning</span>
+              <h3 class="service-card__title">Office / Commercial</h3>
+              <p class="service-card__desc">Professional workspace cleaning that operates discreetly around your team — during or after working hours. Sanitized, organized, and ready for business.</p>
+              <ul class="service-card__includes" aria-label="Service includes">
+                <li>Desks, monitors &amp; equipment wipe</li>
+                <li>Floor vacuuming &amp; mopping</li>
+                <li>Bathroom &amp; kitchen clean</li>
+                <li>High-touch area sanitization</li>
+                <li>Bin emptying &amp; recycling</li>
+              </ul>
+              <div class="service-card__footer">
+                <div class="service-card__meta">
+                  <span class="service-card__price">From Ksh 2,000</span>
+                  <span class="service-card__duration">2–5 hours</span>
+                </div>
+                <a href="booking.html?service=office_clean" class="btn btn--primary btn--sm">Book Now</a>
+              </div>
+            </article>
+
+          </div>
+          <div class="text-center" style="margin-top: 2.5rem;">
+            <a href="services.html#house-cleaning" class="btn btn--secondary">View All House Cleaning Services</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section section--surface-2" aria-labelledby="how-title">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__eyebrow">Simple Process</span>
+        <h2 class="section__title" id="how-title">How It Works</h2>
+        <p class="section__subtitle">Three easy steps from booking to brilliant results.</p>
+      </div>
+      <div class="steps-row reveal">
+        <div class="step">
+          <div class="step__number" aria-hidden="true">1</div>
+          <div>
+            <h3 class="step__title">Book Online or Call</h3>
+            <p class="step__desc">Fill in our quick booking form or call/WhatsApp us. Select your service, date, and location. We confirm within 30 minutes.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number" aria-hidden="true">2</div>
+          <div>
+            <h3 class="step__title">We Come to You</h3>
+            <p class="step__desc">Our professional team arrives at your specified location fully equipped — no travel needed on your part. We handle everything.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step__number" aria-hidden="true">3</div>
+          <div>
+            <h3 class="step__title">Enjoy the Results</h3>
+            <p class="step__desc">Sit back and relax. We'll deliver a spotless car or home, and you only pay after you're fully satisfied with the results.</p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center reveal" style="margin-top: 2.5rem;">
+        <a href="booking.html" class="btn btn--primary btn--lg">Book Your Service</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- VEHICLE TYPES -->
+  <section class="section section--surface" aria-labelledby="vehicle-title">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__eyebrow">All Vehicle Types</span>
+        <h2 class="section__title" id="vehicle-title">We Detail Every Vehicle</h2>
+        <p class="section__subtitle">From compact saloons to large pickup trucks — we have the tools and expertise for every vehicle type.</p>
+      </div>
+      <div class="grid-4 reveal">
+        <div class="benefit-card">
+          <img src="Assets/sedan.png" alt="Saloon car detailing" loading="lazy" style="width: 120px; margin-inline: auto; margin-bottom: 1rem;">
+          <h3 class="benefit-card__title">Saloon / Sedan</h3>
+          <p class="benefit-card__desc">Compact and mid-size cars. From Ksh 500.</p>
+        </div>
+        <div class="benefit-card">
+          <img src="Assets/suv.png" alt="SUV car detailing" loading="lazy" style="width: 120px; margin-inline: auto; margin-bottom: 1rem;">
+          <h3 class="benefit-card__title">Medium SUV</h3>
+          <p class="benefit-card__desc">Standard SUVs and crossovers. From Ksh 700.</p>
+        </div>
+        <div class="benefit-card">
+          <img src="Assets/van.png" alt="Large SUV and van detailing" loading="lazy" style="width: 120px; margin-inline: auto; margin-bottom: 1rem;">
+          <h3 class="benefit-card__title">Large SUV / Van</h3>
+          <p class="benefit-card__desc">7-seaters, minivans, and large SUVs. From Ksh 1,000.</p>
+        </div>
+        <div class="benefit-card">
+          <img src="Assets/pickup.png" alt="Pickup truck detailing" loading="lazy" style="width: 120px; margin-inline: auto; margin-bottom: 1rem;">
+          <h3 class="benefit-card__title">Pickup Truck</h3>
+          <p class="benefit-card__desc">Commercial pickups and double cabs. From Ksh 1,000.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="section section--primary-dark" aria-label="Crystal Crown statistics">
+    <div class="container">
+      <div class="stats-row reveal">
+        <div class="stat-item">
+          <div class="stat-item__number" data-target="500" data-suffix="+">500+</div>
+          <div class="stat-item__label">Happy Clients</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-item__number" data-target="1200" data-suffix="+">1,200+</div>
+          <div class="stat-item__label">Jobs Completed</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-item__number" data-target="20" data-suffix="+">20+</div>
+          <div class="stat-item__label">Areas Covered</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-item__number" data-target="4.9" data-suffix="★">4.9★</div>
+          <div class="stat-item__label">Google Rating</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS CAROUSEL -->
+  <section class="section section--surface-2" aria-labelledby="testimonials-title">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="section__eyebrow">Client Reviews</span>
+        <h2 class="section__title" id="testimonials-title">What Our Clients Say</h2>
+        <p class="section__subtitle">Over 200 five-star reviews on Google. Here are a few of our favourites.</p>
+      </div>
+      <div class="reveal" style="position: relative; overflow: hidden;">
+        <div class="carousel__track" style="display: flex; gap: 1.5rem; transition: transform 0.4s ease;">
+          <div class="carousel__item" style="min-width: calc(100% - 0px); flex-shrink: 0;">
+            <article class="testimonial-card">
+              <div class="testimonial-card__stars" aria-label="5 stars">★★★★★</div>
+              <p class="testimonial-card__quote">James and the Crystal Crown team completely transformed my Subaru. The full detailing package left it looking brand new — I couldn't believe it was the same car. Will absolutely book again!</p>
+              <div class="testimonial-card__author">
+                <div class="testimonial-card__avatar" aria-hidden="true">SK</div>
+                <div>
+                  <p class="testimonial-card__name">Sarah K.</p>
+                  <p class="testimonial-card__meta">Westlands, Nairobi · Car Detailing</p>
+                </div>
+                <div class="testimonial-card__platform" aria-label="Google review">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+                  Google
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="carousel__item" style="min-width: calc(100% - 0px); flex-shrink: 0;">
+            <article class="testimonial-card">
+              <div class="testimonial-card__stars" aria-label="5 stars">★★★★★</div>
+              <p class="testimonial-card__quote">I booked the deep clean for my 3-bedroom apartment and Crystal Crown exceeded every single expectation. Professional, thorough, on time, and very affordable. My home has never been this clean!</p>
+              <div class="testimonial-card__author">
+                <div class="testimonial-card__avatar" aria-hidden="true">DO</div>
+                <div>
+                  <p class="testimonial-card__name">David O.</p>
+                  <p class="testimonial-card__meta">Karen, Nairobi · House Deep Clean</p>
+                </div>
+                <div class="testimonial-card__platform" aria-label="Google review">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+                  Google
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="carousel__item" style="min-width: calc(100% - 0px); flex-shrink: 0;">
+            <article class="testimonial-card">
+              <div class="testimonial-card__stars" aria-label="5 stars">★★★★★</div>
+              <p class="testimonial-card__quote">The steam cleaning service removed stains I thought were completely permanent. They came to my office parking lot — total convenience. Incredible service, couldn't recommend them more highly.</p>
+              <div class="testimonial-card__author">
+                <div class="testimonial-card__avatar" aria-hidden="true">AM</div>
+                <div>
+                  <p class="testimonial-card__name">Aisha M.</p>
+                  <p class="testimonial-card__meta">CBD, Nairobi · Steam Cleaning</p>
+                </div>
+                <div class="testimonial-card__platform" aria-label="Yelp review">⭐ Yelp</div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <!-- Carousel controls -->
+        <div class="flex flex--between" style="margin-top: 1.5rem; align-items: center;">
+          <button class="carousel__prev btn btn--ghost btn--icon" aria-label="Previous testimonial">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+          </button>
+          <div class="carousel__dots" role="tablist" aria-label="Testimonial navigation"></div>
+          <button class="carousel__next btn btn--ghost btn--icon" aria-label="Next testimonial">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg>
+          </button>
+        </div>
+      </div>
+      <div class="text-center reveal" style="margin-top: 2rem;">
+        <a href="testimonials.html" class="btn btn--secondary">Read All Reviews</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="section section--surface" aria-labelledby="cta-title">
+    <div class="container">
+      <div class="cta-banner reveal">
+        <div class="cta-banner__content">
+          <h2 class="cta-banner__title" id="cta-title">Ready for a Crystal-Clean Car or Home?</h2>
+          <p class="cta-banner__subtitle">Join 500+ satisfied clients across Nairobi. Book today — we confirm within 30 minutes and come directly to you.</p>
+          <div class="cta-banner__actions">
+            <a href="booking.html" class="btn btn--white btn--xl">Book a Service</a>
+            <a href="https://wa.me/254710304055?text=Hello%20Crystal%20Crown!%20I%20need%20a%20quote." class="btn btn--accent btn--xl" target="_blank" rel="noopener noreferrer">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
+              WhatsApp Us
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST STRIP -->
+  <section class="section section--sm section--surface-2" aria-label="Trust and recognition">
+    <div class="container">
+      <div class="section__header reveal" style="margin-bottom: 2rem;">
+        <p class="section__eyebrow">Trusted By Nairobi</p>
+      </div>
+      <div class="platform-badges reveal">
+        <div class="platform-badge" aria-label="Google Rating 4.9 stars">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+          Google · 4.9 ★
+        </div>
+        <div class="platform-badge" aria-label="Fully insured service">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+          Fully Insured
+        </div>
+        <div class="platform-badge" aria-label="Eco-friendly certified">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 20l10-18 10 18H2z"/><line x1="12" y1="10" x2="12" y2="14"/></svg>
+          Eco-Friendly
+        </div>
+        <div class="platform-badge" aria-label="Serving 20 plus neighborhoods">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 1118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          20+ Areas
+        </div>
+        <div class="platform-badge" aria-label="Satisfaction guarantee">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+          Satisfaction Guarantee
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <img src="Assets/logo2.png" alt="Crystal Crown" class="footer__logo" loading="lazy">
+        <p class="footer__brand-name">Crystal Crown</p>
+        <p class="footer__tagline">Professional mobile car detailing and house cleaning services delivered directly to your door across Nairobi, Kenya.</p>
+        <div class="footer__social">
+          <a href="#" class="footer__social-link" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+          <a href="#" class="footer__social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+          <a href="#" class="footer__social-link" aria-label="Twitter / X" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+          <a href="https://wa.me/254710304055" class="footer__social-link" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347zm-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.981.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884zm8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h3 class="footer__col-title">Services</h3>
+        <ul class="footer__col-links" role="list">
+          <li><a href="services.html" class="footer__col-link">Car Detailing</a></li>
+          <li><a href="services.html#house-cleaning" class="footer__col-link">House Cleaning</a></li>
+          <li><a href="pricing.html" class="footer__col-link">Pricing</a></li>
+          <li><a href="booking.html" class="footer__col-link">Book a Service</a></li>
+          <li><a href="service-areas.html" class="footer__col-link">Service Areas</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footer__col-title">Company</h3>
+        <ul class="footer__col-links" role="list">
+          <li><a href="about.html" class="footer__col-link">About Us</a></li>
+          <li><a href="gallery.html" class="footer__col-link">Gallery</a></li>
+          <li><a href="testimonials.html" class="footer__col-link">Testimonials</a></li>
+          <li><a href="blog.html" class="footer__col-link">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footer__col-title">Support</h3>
+        <ul class="footer__col-links" role="list">
+          <li><a href="faq.html" class="footer__col-link">FAQ</a></li>
+          <li><a href="contact.html" class="footer__col-link">Contact Us</a></li>
+          <li><a href="privacy-policy.html" class="footer__col-link">Privacy Policy</a></li>
+          <li><a href="terms-of-service.html" class="footer__col-link">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copyright">© 2025 Crystal Crown. All rights reserved. Nairobi, Kenya.</p>
+      <a href="https://wa.me/254710304055?text=Hello%20Crystal%20Crown!%20I%20need%20a%20quote." class="btn btn--whatsapp btn--sm" target="_blank" rel="noopener noreferrer">WhatsApp Us</a>
+    </div>
+  </div>
+</footer>
+
+<div class="whatsapp-widget" aria-label="WhatsApp chat widget">
+  <div class="whatsapp-widget__bubble" aria-live="polite">
+    <strong>Need a quote?</strong><br>Chat with us on WhatsApp — we reply fast!
+  </div>
+  <button class="whatsapp-widget__toggle" aria-label="Toggle WhatsApp chat" aria-expanded="false">
+    <a href="https://wa.me/254710304055?text=Hello%20Crystal%20Crown!" target="_blank" rel="noopener noreferrer" class="whatsapp-widget__btn" aria-label="Open WhatsApp">
+      <svg class="whatsapp-widget__icon" viewBox="0 0 24 24" aria-hidden="true" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
+    </a>
+  </button>
+</div>
+
+<button class="back-to-top" aria-label="Scroll back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 15l-6-6-6 6"/></svg>
+</button>
+
+<div class="cookie-banner" role="dialog" aria-label="Cookie consent" aria-live="polite">
+  <p class="cookie-banner__text">We use cookies to improve your experience on our website. By continuing to browse, you agree to our <a href="privacy-policy.html">Privacy Policy</a>.</p>
+  <div class="cookie-banner__actions">
+    <button class="btn btn--white btn--sm cookie-banner__accept">Accept All</button>
+    <button class="btn btn--sm cookie-banner__decline">Decline</button>
+  </div>
+</div>
+
+</body>
+</html>

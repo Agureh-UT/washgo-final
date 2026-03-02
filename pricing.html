@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Crystal Crown transparent pricing for car detailing and house cleaning in Nairobi. No hidden fees — see prices before you book.">
+  <meta property="og:title" content="Pricing | Crystal Crown Nairobi">
+  <meta property="og:description" content="Transparent, no-surprise pricing for car detailing and house cleaning across Nairobi, Kenya.">
+  <meta property="og:type" content="website">
+  <title>Pricing | Crystal Crown</title>
+  <link rel="stylesheet" href="globals.css">
+  <script src="globals.js" defer></script>
+</head>
+<body>
+
+<header class="header" role="banner">
+  <nav class="nav" aria-label="Main navigation">
+    <div class="nav__container">
+      <a href="index.html" class="nav__logo">
+        <img src="Assets/logo2.png" alt="Crystal Crown" class="nav__logo-img">
+        <span class="nav__logo-text">Crystal Crown</span>
+      </a>
+      <ul class="nav__links" role="list">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="services.html" class="nav__link">Services</a></li>
+        <li><a href="pricing.html" class="nav__link">Pricing</a></li>
+        <li><a href="gallery.html" class="nav__link">Gallery</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="blog.html" class="nav__link">Blog</a></li>
+        <li><a href="contact.html" class="nav__link">Contact</a></li>
+      </ul>
+      <div class="nav__actions">
+        <a href="tel:+254710304055" class="nav__phone" aria-label="Call Crystal Crown">+254 710 304 055</a>
+        <a href="booking.html" class="btn btn--primary btn--sm">Book Now</a>
+        <button class="nav__toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-mobile-panel">
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+        </button>
+      </div>
+    </div>
+    <div class="nav__mobile-panel" id="nav-mobile-panel" role="dialog" aria-label="Mobile navigation">
+      <a href="index.html" class="nav__mobile-link">Home</a>
+      <a href="services.html" class="nav__mobile-link">Services</a>
+      <a href="pricing.html" class="nav__mobile-link">Pricing</a>
+      <a href="gallery.html" class="nav__mobile-link">Gallery</a>
+      <a href="about.html" class="nav__mobile-link">About</a>
+      <a href="blog.html" class="nav__mobile-link">Blog</a>
+      <a href="contact.html" class="nav__mobile-link">Contact</a>
+      <div class="nav__mobile-cta"><a href="booking.html" class="btn btn--primary">Book a Service</a></div>
+    </div>
+    <div class="nav__backdrop" aria-hidden="true"></div>
+  </nav>
+</header>
+
+  <!-- ═══ HERO ═══ -->
+  <section class="hero hero--short hero--image">
+    <div class="hero__overlay"></div>
+    <div class="hero__content container">
+      <p class="hero__eyebrow">No Hidden Fees</p>
+      <h1 class="hero__title">Transparent Pricing</h1>
+      <p class="hero__subtitle">Know exactly what you'll pay before you book — guaranteed</p>
+      <nav aria-label="Breadcrumb" class="breadcrumb">
+        <ol class="breadcrumb__list" role="list">
+          <li><a href="index.html" class="breadcrumb__link">Home</a></li>
+          <li aria-hidden="true" class="breadcrumb__sep">›</li>
+          <li aria-current="page" class="breadcrumb__current">Pricing</li>
+        </ol>
+      </nav>
+    </div>
+  </section>
+
+  <main id="main-content">
+
+    <!-- ═══ VIEW TOGGLE ═══ -->
+    <section class="section section--surface">
+      <div class="container">
+        <div class="section__header text-center reveal">
+          <p class="section__eyebrow">Our Rates</p>
+          <h2 class="section__title">Simple, Honest Pricing</h2>
+          <p class="section__subtitle">All prices in Kenyan Shillings (KSh). Prices vary by vehicle size or property type — select below.</p>
+        </div>
+
+        <div class="pricing-view-toggle reveal" role="group" aria-label="Pricing view">
+          <button class="pricing-toggle-btn pricing-toggle-btn--active" data-view="cards" aria-pressed="true">Card View</button>
+          <button class="pricing-toggle-btn" data-view="table" aria-pressed="false">Table View</button>
+        </div>
+
+        <!-- ─── SERVICE TABS ─── -->
+        <div class="tabs reveal" data-tabs>
+          <div class="tabs__nav" role="tablist" aria-label="Service category pricing">
+            <button class="tab-btn tab-btn--active" role="tab" aria-selected="true" data-tab="car-pricing" aria-controls="car-pricing-panel" id="tab-car-pricing">Car Detailing</button>
+            <button class="tab-btn" role="tab" aria-selected="false" data-tab="house-pricing" aria-controls="house-pricing-panel" id="tab-house-pricing">House Cleaning</button>
+          </div>
+
+          <!-- ─── CAR DETAILING CARDS VIEW ─── -->
+          <div class="tab-panel tab-panel--active" id="car-pricing-panel" role="tabpanel" aria-labelledby="tab-car-pricing">
+            <div class="pricing-cards-view">
+              <div class="grid-3">
+
+                <article class="pricing-card">
+                  <div class="pricing-card__header">
+                    <h3 class="pricing-card__title">Exterior Wash</h3>
+                    <p class="pricing-card__duration">25–40 min</p>
+                  </div>
+                  <div class="pricing-card__price">
+                    <span class="pricing-card__from">from</span>
+                    <span class="pricing-card__amount">KSh 500</span>
+                  </div>
+                  <ul class="pricing-card__features" role="list">
+                    <li>Hand wash exterior</li>
+                    <li>Wheel &amp; tyre clean</li>
+                    <li>Window streak-free clean</li>
+                    <li>Door jamb wipe-down</li>
+                  </ul>
+                  <div class="pricing-card__tiers">
+                    <div class="pricing-tier"><span>Saloon</span><strong>KSh 500</strong></div>
+                    <div class="pricing-tier"><span>Medium SUV</span><strong>KSh 700</strong></div>
+                    <div class="pricing-tier"><span>Large SUV/Truck</span><strong>KSh 900</strong></div>
+                  </div>
+                  <a href="booking.html" class="btn btn--outline">Book This</a>
+                </article>
+
+                <article class="pricing-card">
+                  <div class="pricing-card__header">
+                    <h3 class="pricing-card__title">Interior Cleaning</h3>
+                    <p class="pricing-card__duration">30–50 min</p>
+                  </div>
+                  <div class="pricing-card__price">
+                    <span class="pricing-card__from">from</span>
+                    <span class="pricing-card__amount">KSh 800</span>
+                  </div>
+                  <ul class="pricing-card__features" role="list">
+                    <li>Vacuum seats &amp; carpet</li>
+                    <li>Dashboard &amp; console wipe</li>
+                    <li>Door panels &amp; pockets</li>
+                    <li>Air vents &amp; cup holders</li>
+                  </ul>
+                  <div class="pricing-card__tiers">
+                    <div class="pricing-tier"><span>Saloon</span><strong>KSh 800</strong></div>
+                    <div class="pricing-tier"><span>Medium SUV</span><strong>KSh 1,100</strong></div>
+                    <div class="pricing-tier"><span>Large SUV/Truck</span><strong>KSh 1,400</strong></div>
+                  </div>
+                  <a href="booking.html" class="btn btn--outline">Book This</a>
+                </article>
+
+                <article class="pricing-card">
+                  <div class="pricing-card__header">
+                    <h3 class="pricing-card__title">Waxing &amp; Polishing</h3>
+                    <p class="pricing-card__duration">45–60 min</p>
+                  </div>
+                  <div class="pricing-card__price">
+                    <span class="pricing-card__from">from</span>
+                    <span class="pricing-card__amount">KSh 1,200</span>
+                  </div>
+                  <ul class="pricing-card__features" role="list">
+                    <li>Machine polish</li>
+                    <li>Carnauba wax coat</li>
+                    <li>Paint swirl reduction</li>
+                    <li>UV protection</li>
+                  </ul>
+                  <div class="pricing-card__tiers">
+                    <div class="pricing-tier"><span>Saloon</span><strong>KSh 1,200</strong></div>
+                    <div class="pricing-tier"><span>Medium SUV</span><strong>KSh 1,600</strong></div>
+                    <div class="pricing-tier"><span>Large SUV/Truck</span><strong>KSh 2,000</strong></div>
+                  </div>
+                  <a href="booking.html" class="btn btn--outline">Book This</a>
+                </article>
+
+                <article class="pricing-card">
+                  <div class="pricing-card__header">
+                    <h3 class="pricing-card__title">Steam Cleaning</h3>
+                    <p class="pricing-card__duration">45–60 min</p>
+                  </div>
+                  <div class="pricing-card__price">
+                    <span class="pricing-card__from">from</span>
+                    <span class="pricing-card__amount">KSh 1,500</span>
+                  </div>
+                  <ul class="pricing-card__features" role="list">
+                    <li>High-temp steam sanitise</li>
+                    <li>Seat fabric deep clean</li>
+                    <li>Odour elimination</li>
+                    <li>Bacteria &amp; mould treatment</li>
+                  </ul>
+                  <div class="pricing-card__tiers">
+                    <div class="pricing-tier"><span>Saloon</span><strong>KSh 1,500</strong></div>
+                    <div class="pricing-tier"><span>Medium SUV</span><strong>KSh 2,000</strong></div>
+                    <div class="pricing-tier"><span>Large SUV/Truck</span><strong>KSh 2,500</strong></div>
+                  </div>
+                  <a href="booking.html" class="btn btn--outline">Book This</a>
+                </article>
+
+                <article class="pricing-card">
+                  <div class="pricing-card__header">
+                    <h3 class="pricing-card__title">Engine Bay Cleaning</h3>
+                    <p class="pricing-card__duration">30–45 min</p>
+                  </div>
+                  <div class="pricing-card__price">
+                    <span class="pricing-card__from">from</span>
+                    <span class="pricing-card__amount">KSh 1,500</span>
+                  </div>
+                  <ul class="pricing-card__features" role="list">
+                    <li>Degreaser application</li>
+                    <li>Pressure rinse</li>
+                    <li>Engine bay detail</li>
+                    <li>Plastic &amp; hose dressing</li>
+                  </ul>
+                  <div class="pricing-card__tiers">
+                    <div class="pricing-tier"><span>Saloon</span><strong>KSh 1,500</strong></div>
+                    <div class="pricing-tier"><span>Medium SUV</span><strong>KSh 1,800</strong></div>
+                    <div class="pricing-tier"><span>Large SUV/Truck</span><strong>KSh 2,200</strong></div>
+                  </div>
+                  <a href="booking.html" class="btn btn--outline">Book This</a>
+                </article>
+
+                <article class="pricing-card pricing-card--featured">
+                  <div class="pricing-card__badge">Best Value</div>
+                  <div class="pricing-card__header">
+                    <h3 class="pricing-card__title">Full Detailing Package</h3>
+                    <p class="pricing-card__duration">90–120 min</p>
+                  </div>
+                  <div class="pricing-card__price">
+                    <span class="pricing-card__from">from</span>
+                    <span class="pricing-card__amount">KSh 3,500</span>
+                  </div>
+                  <ul class="pricing-card__features" role="list">
+                    <li>Complete exterior wash</li>
+                    <li>Full interior vacuum &amp; wipe</li>
+                    <li>Machine polish + wax</li>
+                    <li>Steam sanitise seats</li>
+                    <li>Engine bay clean</li>
+                    <li>Tyre dressing + air freshener</li>
+                  </ul>
+                  <div class="pricing-card__tiers">
+                    <div class="pricing-tier"><span>Saloon</span><strong>KSh 3,500</strong></div>
+                    <div class="pricing-tier"><span>Medium SUV</span><strong>KSh 4,500</strong></div>
+                    <div class="pricing-tier"><span>Large SUV/Truck</span><strong>KSh 5,500</strong></div>
+                  </div>
+                  <a href="booking.html" class="btn btn--primary">Book Now</a>
+                </article>
+
+              </div>
+            </div>
+
+            <!-- TABLE VIEW (hidden by default, toggled by JS) -->
+            <div class="pricing-table-wrapper" aria-hidden="true">
+              <table class="pricing-table">
+                <caption class="sr-only">Car Detailing Pricing by Vehicle Size</caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Service</th>
+                    <th scope="col">Duration</th>
+                    <th scope="col">Saloon</th>
+                    <th scope="col">Medium SUV</th>
+                    <th scope="col">Large SUV/Truck</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Exterior Wash</td>
+                    <td>25–40 min</td>
+                    <td>KSh 500</td>
+                    <td>KSh 700</td>
+                    <td>KSh 900</td>
+                  </tr>
+                  <tr>
+                    <td>Interior Cleaning</td>
+                    <td>30–50 min</td>
+                    <td>KSh 800</td>
+                    <td>KSh 1,100</td>
+                    <td>KSh 1,400</td>
+                  </tr>
+                  <tr>
+                    <td>Waxing &amp; Polishing</td>
+                    <td>45–60 min</td>
+                    <td>KSh 1,200</td>
+                    <td>KSh 1,600</td>
+                    <td>KSh 2,000</td>
+                  </tr>
+                  <tr>
+                    <td>Steam Cleaning</td>
+                    <td>45–60 min</td>
+                    <td>KSh 1,500</td>
+                    <td>KSh 2,000</td>
+                    <td>KSh 2,500</td>
+                  </tr>
+                  <tr>
+                    <td>Engine Bay Cleaning</td>
+                    <td>30–45 min</td>
+                    <td>KSh 1,500</td>
+                    <td>KSh 1,800</td>
+                    <td>KSh 2,200</td>
+                  </tr>
+                  <tr class="pricing-table__featured">
+                    <td><strong>Full Detailing Package</strong> ★ Best Value</td>
+                    <td>90–120 min</td>
+                    <td><strong>KSh 3,500</strong></td>
+                    <td><strong>KSh 4,500</strong></td>
+                    <td><strong>KSh 5,500</strong></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- ─── HOUSE CLEANING PANEL ─── -->
+          <div class="tab-panel" id="house-pricing-panel" role="tabpanel" aria-labelledby="tab-house-pricing">
+            <div class="pricing-cards-view">
+              <div class="grid-2">
+
+                <article class="pricing-card">
+                  <div class="pricing-card__header">
+                    <h3 class="pricing-card__title">Regular Home Clean</h3>
+                    <p class="pricing-card__duration">2–3 hours</p>
+                  </div>
+                  <div class="pricing-card__price">
+                    <span class="pricing-card__from">from</span>
+                    <span class="pricing-card__amount">KSh 1,500</span>
+                  </div>
+                  <ul class="pricing-card__features" role="list">
+                    <li>Dusting all surfaces</li>
+                    <li>Vacuuming &amp; mopping</li>
+                    <li>Kitchen &amp; bathroom clean</li>
+                    <li>Rubbish removal</li>
+                  </ul>
+                  <div class="pricing-card__tiers">
+                    <div class="pricing-tier"><span>1–2 Bedrooms</span><strong>KSh 1,500</strong></div>
+                    <div class="pricing-tier"><span>3–4 Bedrooms</span><strong>KSh 2,500</strong></div>
+                    <div class="pricing-tier"><span>5+ Bedrooms</span><strong>KSh 3,500</strong></div>
+                  </div>
+                  <a href="booking.html" class="btn btn--outline">Book This</a>
+                </article>
+
+                <article class="pricing-card pricing-card--featured">
+                  <div class="pricing-card__badge">Most Popular</div>
+                  <div class="pricing-card__header">
+                    <h3 class="pricing-card__title">Deep Clean</h3>
+                    <p class="pricing-card__duration">4–6 hours</p>
+                  </div>
+                  <div class="pricing-card__price">
+                    <span class="pricing-card__from">from</span>
+                    <span class="pricing-card__amount">KSh 3,000</span>
+                  </div>
+                  <ul class="pricing-card__features" role="list">
+                    <li>Everything in Regular Clean</li>
+                    <li>Inside oven &amp; fridge</li>
+                    <li>Inside cabinets &amp; drawers</li>
+                    <li>Grout &amp; tile scrub</li>
+                    <li>Skirting boards &amp; light fixtures</li>
+                    <li>Window interiors</li>
+                  </ul>
+                  <div class="pricing-card__tiers">
+                    <div class="pricing-tier"><span>1–2 Bedrooms</span><strong>KSh 3,000</strong></div>
+                    <div class="pricing-tier"><span>3–4 Bedrooms</span><strong>KSh 4,500</strong></div>
+                    <div class="pricing-tier"><span>5+ Bedrooms</span><strong>KSh 6,000</strong></div>
+                  </div>
+                  <a href="booking.html" class="btn btn--primary">Book Now</a>
+                </article>
+
+                <article class="pricing-card">
+                  <div class="pricing-card__header">
+                    <h3 class="pricing-card__title">Move-In / Move-Out</h3>
+                    <p class="pricing-card__duration">4–8 hours</p>
+                  </div>
+                  <div class="pricing-card__price">
+                    <span class="pricing-card__from">from</span>
+                    <span class="pricing-card__amount">KSh 3,500</span>
+                  </div>
+                  <ul class="pricing-card__features" role="list">
+                    <li>Full deep clean</li>
+                    <li>Inside all appliances</li>
+                    <li>Wall spot cleaning</li>
+                    <li>Carpet shampooing</li>
+                    <li>Landlord-standard finish</li>
+                    <li>Deposit protection clean</li>
+                  </ul>
+                  <div class="pricing-card__tiers">
+                    <div class="pricing-tier"><span>1–2 Bedrooms</span><strong>KSh 3,500</strong></div>
+                    <div class="pricing-tier"><span>3–4 Bedrooms</span><strong>KSh 5,000</strong></div>
+                    <div class="pricing-tier"><span>5+ Bedrooms</span><strong>KSh 7,000</strong></div>
+                  </div>
+                  <a href="booking.html" class="btn btn--outline">Book This</a>
+                </article>
+
+                <article class="pricing-card">
+                  <div class="pricing-card__header">
+                    <h3 class="pricing-card__title">Office / Commercial</h3>
+                    <p class="pricing-card__duration">2–5 hours</p>
+                  </div>
+                  <div class="pricing-card__price">
+                    <span class="pricing-card__from">from</span>
+                    <span class="pricing-card__amount">KSh 2,000</span>
+                  </div>
+                  <ul class="pricing-card__features" role="list">
+                    <li>Workstation &amp; desk clean</li>
+                    <li>Bathroom sanitise</li>
+                    <li>Kitchen &amp; break room</li>
+                    <li>Floor vacuuming &amp; mopping</li>
+                    <li>Waste disposal</li>
+                    <li>Flexible scheduling</li>
+                  </ul>
+                  <div class="pricing-card__tiers">
+                    <div class="pricing-tier"><span>Small (up to 500 sqft)</span><strong>KSh 2,000</strong></div>
+                    <div class="pricing-tier"><span>Medium (500–1000 sqft)</span><strong>KSh 3,500</strong></div>
+                    <div class="pricing-tier"><span>Large (1000+ sqft)</span><strong>Quote</strong></div>
+                  </div>
+                  <a href="contact.html" class="btn btn--outline">Get Quote</a>
+                </article>
+
+              </div>
+            </div>
+
+            <!-- TABLE VIEW -->
+            <div class="pricing-table-wrapper" aria-hidden="true">
+              <table class="pricing-table">
+                <caption class="sr-only">House Cleaning Pricing by Property Size</caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Service</th>
+                    <th scope="col">Duration</th>
+                    <th scope="col">1–2 Bedrooms</th>
+                    <th scope="col">3–4 Bedrooms</th>
+                    <th scope="col">5+ Bedrooms</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Regular Home Clean</td>
+                    <td>2–3 hrs</td>
+                    <td>KSh 1,500</td>
+                    <td>KSh 2,500</td>
+                    <td>KSh 3,500</td>
+                  </tr>
+                  <tr class="pricing-table__featured">
+                    <td><strong>Deep Clean</strong> ★ Popular</td>
+                    <td>4–6 hrs</td>
+                    <td><strong>KSh 3,000</strong></td>
+                    <td><strong>KSh 4,500</strong></td>
+                    <td><strong>KSh 6,000</strong></td>
+                  </tr>
+                  <tr>
+                    <td>Move-In / Move-Out</td>
+                    <td>4–8 hrs</td>
+                    <td>KSh 3,500</td>
+                    <td>KSh 5,000</td>
+                    <td>KSh 7,000</td>
+                  </tr>
+                  <tr>
+                    <td>Office / Commercial</td>
+                    <td>2–5 hrs</td>
+                    <td>KSh 2,000</td>
+                    <td>KSh 3,500</td>
+                    <td>Quote</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+        </div><!-- /.tabs -->
+      </div>
+    </section>
+
+    <!-- ═══ PRICE CALCULATOR ═══ -->
+    <section class="section section--surface-2">
+      <div class="container">
+        <div class="section__header text-center reveal">
+          <p class="section__eyebrow">Estimate Your Cost</p>
+          <h2 class="section__title">Price Calculator</h2>
+          <p class="section__subtitle">Select your service and vehicle/property size to see an instant price estimate.</p>
+        </div>
+
+        <div class="pricing-calc reveal">
+          <div class="pricing-calc__form">
+            <div class="form-group">
+              <label for="calc-category" class="form-label">Service Type</label>
+              <select id="calc-category" class="form-select">
+                <option value="">Select category...</option>
+                <option value="car">Car Detailing</option>
+                <option value="house">House Cleaning</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="calc-service" class="form-label">Service</label>
+              <select id="calc-service" class="form-select" disabled>
+                <option value="">Select a service first...</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="calc-size" class="form-label">Vehicle / Property Size</label>
+              <select id="calc-size" class="form-select" disabled>
+                <option value="">Select a service first...</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="pricing-calc__result" id="calc-result" aria-live="polite">
+            <div class="pricing-calc__result-inner">
+              <p class="pricing-calc__result-label">Estimated Price</p>
+              <p class="pricing-calc__result-value" id="calc-price">—</p>
+              <p class="pricing-calc__result-note" id="calc-note">Select a service to see pricing</p>
+              <a href="booking.html" class="btn btn--primary" id="calc-book-btn">Book This Service</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ FAQ ═══ -->
+    <section class="section section--surface">
+      <div class="container">
+        <div class="section__header text-center reveal">
+          <p class="section__eyebrow">Pricing Questions</p>
+          <h2 class="section__title">Common Pricing FAQs</h2>
+        </div>
+
+        <div class="faq-group reveal">
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              Are the prices listed final or are there add-ons?
+              <span class="faq-question__icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <p>The prices shown are base prices and are the most you'll pay for the standard service. Optional add-ons (air freshener, before/after photos, pet hair removal, etc.) are listed separately and only charged if you specifically request them at booking.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              Do you charge for travel / call-out?
+              <span class="faq-question__icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <p>No travel charges within our standard service zones (20+ areas across Nairobi). For locations outside our standard zones, a small fuel surcharge may apply — we'll let you know upfront before confirming your booking.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              What payment methods do you accept?
+              <span class="faq-question__icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <p>We accept M-Pesa, cash, and bank transfer. Payment is made after the service is complete and you're satisfied. M-Pesa is the most convenient — our Paybill details will be shared with your confirmation.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              Do you offer discounts for regular or bulk bookings?
+              <span class="faq-question__icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes! Regular clients (weekly/bi-weekly) receive up to 15% off. Businesses booking 3+ vehicles or premises at once receive a 10% fleet discount. WhatsApp us to arrange a custom package.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              What if I'm not happy with the result?
+              <span class="faq-question__icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <p>We have a 100% satisfaction guarantee. If you're not happy, tell our technician immediately and we'll re-do the affected area at no extra charge. If still unsatisfied, we offer a partial or full refund depending on the circumstances.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ CTA BANNER ═══ -->
+    <section class="section section--primary">
+      <div class="container text-center">
+        <h2 class="reveal">Ready to Book? It Takes Less Than 2 Minutes</h2>
+        <p class="reveal">No deposits required. Pay after service. 100% satisfaction guaranteed.</p>
+        <div class="hero__actions reveal">
+          <a href="booking.html" class="btn btn--white btn--lg">Book Now</a>
+          <a href="https://wa.me/254710304055" class="btn btn--outline btn--lg" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">WhatsApp for Quote</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="index.html" class="footer__logo" aria-label="Crystal Crown home">
+            <img src="Assets/logo2.png" alt="Crystal Crown logo" loading="lazy">
+          </a>
+          <p class="footer__tagline">Nairobi's premier mobile car detailing &amp; house cleaning service. We come to you.</p>
+          <div class="footer__social">
+            <a href="https://wa.me/254710304055" class="footer__social-link" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="footer__col-title">Services</h3>
+          <ul class="footer__col-links" role="list">
+            <li><a href="services.html" class="footer__col-link">Car Detailing</a></li>
+            <li><a href="services.html#house-cleaning" class="footer__col-link">House Cleaning</a></li>
+            <li><a href="pricing.html" class="footer__col-link">Pricing</a></li>
+            <li><a href="service-areas.html" class="footer__col-link">Service Areas</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer__col-title">Company</h3>
+          <ul class="footer__col-links" role="list">
+            <li><a href="about.html" class="footer__col-link">About Us</a></li>
+            <li><a href="gallery.html" class="footer__col-link">Gallery</a></li>
+            <li><a href="testimonials.html" class="footer__col-link">Testimonials</a></li>
+            <li><a href="blog.html" class="footer__col-link">Blog</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer__col-title">Support</h3>
+          <ul class="footer__col-links" role="list">
+            <li><a href="contact.html" class="footer__col-link">Contact Us</a></li>
+            <li><a href="faq.html" class="footer__col-link">FAQ</a></li>
+            <li><a href="booking.html" class="footer__col-link">Book a Service</a></li>
+            <li><a href="privacy-policy.html" class="footer__col-link">Privacy Policy</a></li>
+            <li><a href="terms-of-service.html" class="footer__col-link">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2025 Crystal Crown. All rights reserved. Nairobi, Kenya.</p>
+        <p>
+          <a href="privacy-policy.html" class="footer__col-link">Privacy Policy</a> &nbsp;·&nbsp;
+          <a href="terms-of-service.html" class="footer__col-link">Terms of Service</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Widget -->
+  <div class="whatsapp-widget" id="whatsapp-widget">
+    <div class="whatsapp-widget__bubble" id="whatsapp-bubble" aria-hidden="true">
+      <p>Have pricing questions? Chat with us on WhatsApp.</p>
+      <a href="https://wa.me/254710304055" class="btn btn--primary btn--sm" target="_blank" rel="noopener noreferrer">Start Chat</a>
+    </div>
+    <button class="whatsapp-widget__btn" id="whatsapp-btn" aria-label="Open WhatsApp chat" aria-expanded="false">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </button>
+  </div>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <!-- Cookie Banner -->
+  <div class="cookie-banner" id="cookie-banner" role="region" aria-label="Cookie consent">
+    <p>We use cookies to improve your experience. By continuing, you agree to our <a href="privacy-policy.html">Privacy Policy</a>.</p>
+    <div class="cookie-banner__actions">
+      <button class="btn btn--primary btn--sm" id="cookie-accept">Accept</button>
+      <button class="btn btn--ghost btn--sm" id="cookie-decline">Decline</button>
+    </div>
+  </div>
+
+</body>
+</html>

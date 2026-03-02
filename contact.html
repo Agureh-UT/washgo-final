@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Crystal Crown for car detailing and house cleaning in Nairobi. Call, WhatsApp, or fill in our form — we'll respond quickly.">
+  <meta property="og:title" content="Contact Us | Crystal Crown Nairobi">
+  <meta property="og:description" content="Get in touch with Crystal Crown — Nairobi's mobile car detailing and house cleaning experts.">
+  <meta property="og:type" content="website">
+  <title>Contact Us | Crystal Crown</title>
+  <link rel="stylesheet" href="globals.css">
+  <script src="globals.js" defer></script>
+</head>
+<body>
+
+<header class="header" role="banner">
+  <nav class="nav" aria-label="Main navigation">
+    <div class="nav__container">
+      <a href="index.html" class="nav__logo">
+        <img src="Assets/logo2.png" alt="Crystal Crown" class="nav__logo-img">
+        <span class="nav__logo-text">Crystal Crown</span>
+      </a>
+      <ul class="nav__links" role="list">
+        <li><a href="index.html" class="nav__link">Home</a></li>
+        <li><a href="services.html" class="nav__link">Services</a></li>
+        <li><a href="pricing.html" class="nav__link">Pricing</a></li>
+        <li><a href="gallery.html" class="nav__link">Gallery</a></li>
+        <li><a href="about.html" class="nav__link">About</a></li>
+        <li><a href="blog.html" class="nav__link">Blog</a></li>
+        <li><a href="contact.html" class="nav__link">Contact</a></li>
+      </ul>
+      <div class="nav__actions">
+        <a href="tel:+254710304055" class="nav__phone" aria-label="Call Crystal Crown">+254 710 304 055</a>
+        <a href="booking.html" class="btn btn--primary btn--sm">Book Now</a>
+        <button class="nav__toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-mobile-panel">
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+          <span class="nav__toggle-bar"></span>
+        </button>
+      </div>
+    </div>
+    <div class="nav__mobile-panel" id="nav-mobile-panel" role="dialog" aria-label="Mobile navigation">
+      <a href="index.html" class="nav__mobile-link">Home</a>
+      <a href="services.html" class="nav__mobile-link">Services</a>
+      <a href="pricing.html" class="nav__mobile-link">Pricing</a>
+      <a href="gallery.html" class="nav__mobile-link">Gallery</a>
+      <a href="about.html" class="nav__mobile-link">About</a>
+      <a href="blog.html" class="nav__mobile-link">Blog</a>
+      <a href="contact.html" class="nav__mobile-link">Contact</a>
+      <div class="nav__mobile-cta"><a href="booking.html" class="btn btn--primary">Book a Service</a></div>
+    </div>
+    <div class="nav__backdrop" aria-hidden="true"></div>
+  </nav>
+</header>
+
+  <!-- ═══ HERO ═══ -->
+  <section class="hero hero--short hero--image">
+    <div class="hero__overlay"></div>
+    <div class="hero__content container">
+      <p class="hero__eyebrow">Get in Touch</p>
+      <h1 class="hero__title">Contact Us</h1>
+      <p class="hero__subtitle">We typically respond within 30 minutes during business hours</p>
+      <nav aria-label="Breadcrumb" class="breadcrumb">
+        <ol class="breadcrumb__list" role="list">
+          <li><a href="index.html" class="breadcrumb__link">Home</a></li>
+          <li aria-hidden="true" class="breadcrumb__sep">›</li>
+          <li aria-current="page" class="breadcrumb__current">Contact</li>
+        </ol>
+      </nav>
+    </div>
+  </section>
+
+  <main id="main-content">
+
+    <!-- ═══ CONTACT GRID ═══ -->
+    <section class="section section--surface">
+      <div class="container">
+        <div class="contact-grid">
+
+          <!-- Contact Form -->
+          <div class="contact-form-col">
+            <h2>Send Us a Message</h2>
+            <p>Fill in the form below and we'll get back to you as soon as possible.</p>
+
+            <form class="form" id="contact-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contact-name" class="form-label">Full Name <span aria-hidden="true">*</span></label>
+                  <input type="text" id="contact-name" name="name" class="form-input" placeholder="e.g. James Mwangi" autocomplete="name" required>
+                  <span class="form-error" id="contact-name-error" role="alert"></span>
+                </div>
+                <div class="form-group">
+                  <label for="contact-phone" class="form-label">Phone Number <span aria-hidden="true">*</span></label>
+                  <input type="tel" id="contact-phone" name="phone" class="form-input" placeholder="+254 7XX XXX XXX" autocomplete="tel" required>
+                  <span class="form-error" id="contact-phone-error" role="alert"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email" class="form-label">Email Address</label>
+                <input type="email" id="contact-email" name="email" class="form-input" placeholder="you@example.com" autocomplete="email">
+                <span class="form-error" id="contact-email-error" role="alert"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject" class="form-label">Subject <span aria-hidden="true">*</span></label>
+                <select id="contact-subject" name="subject" class="form-select" required>
+                  <option value="">Select a subject...</option>
+                  <option value="booking">Book a Service</option>
+                  <option value="quote">Request a Quote</option>
+                  <option value="complaint">Complaint / Feedback</option>
+                  <option value="partnership">Business Partnership</option>
+                  <option value="other">Other</option>
+                </select>
+                <span class="form-error" id="contact-subject-error" role="alert"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Message <span aria-hidden="true">*</span></label>
+                <textarea id="contact-message" name="message" class="form-textarea" rows="5" placeholder="Tell us how we can help you..." required></textarea>
+                <span class="form-error" id="contact-message-error" role="alert"></span>
+              </div>
+
+              <button type="submit" class="btn btn--primary btn--lg">Send Message</button>
+            </form>
+          </div>
+
+          <!-- Contact Info -->
+          <aside class="contact-info">
+            <h2>Contact Information</h2>
+
+            <div class="contact-info-item">
+              <div class="contact-info-item__icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.63A2 2 0 012 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14v2.92z"/></svg>
+              </div>
+              <div>
+                <p class="contact-info-item__label">Phone / WhatsApp</p>
+                <a href="tel:+254710304055" class="contact-info-item__value">+254 710 304 055</a>
+                <a href="https://wa.me/254710304055" class="btn btn--primary btn--sm" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                  Chat on WhatsApp
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-item__icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <p class="contact-info-item__label">Email</p>
+                <a href="mailto:hello@crystalcrown.co.ke" class="contact-info-item__value">hello@crystalcrown.co.ke</a>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-item__icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <p class="contact-info-item__label">Location</p>
+                <p class="contact-info-item__value">Nairobi, Kenya<br><small>Mobile service — we come to you</small></p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-item__icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div>
+                <p class="contact-info-item__label">Business Hours</p>
+                <table class="business-hours-table">
+                  <tbody>
+                    <tr>
+                      <td>Monday – Friday</td>
+                      <td>7:00 AM – 7:00 PM</td>
+                    </tr>
+                    <tr>
+                      <td>Saturday</td>
+                      <td>7:00 AM – 6:00 PM</td>
+                    </tr>
+                    <tr>
+                      <td>Sunday</td>
+                      <td>8:00 AM – 4:00 PM</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-info-item__icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+              </div>
+              <div>
+                <p class="contact-info-item__label">Follow Us</p>
+                <div class="footer__social">
+                  <a href="https://wa.me/254710304055" class="footer__social-link" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                  </a>
+                  <a href="#" class="footer__social-link" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                  </a>
+                  <a href="#" class="footer__social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </aside>
+
+        </div><!-- /.contact-grid -->
+      </div>
+    </section>
+
+    <!-- ═══ MAP ═══ -->
+    <section class="section section--surface-2" aria-label="Our location on map">
+      <div class="container">
+        <div class="section__header text-center reveal">
+          <p class="section__eyebrow">Find Us</p>
+          <h2 class="section__title">We Serve All of Nairobi</h2>
+          <p class="section__subtitle">Mobile service — we come to your home, office, or any location within our service areas.</p>
+        </div>
+        <div class="map-embed reveal">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255281.1904992574!2d36.64901068023584!3d-1.3031933847534704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi%2C%20Kenya!5e0!3m2!1sen!2ske!4v1700000000000!5m2!1sen!2ske"
+            title="Crystal Crown service area — Nairobi, Kenya"
+            allowfullscreen
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            aria-label="Map showing Nairobi, Kenya service area">
+          </iframe>
+        </div>
+        <p class="text-center">
+          <a href="service-areas.html" class="btn btn--outline">View All Service Areas</a>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="index.html" class="footer__logo" aria-label="Crystal Crown home">
+            <img src="Assets/logo2.png" alt="Crystal Crown logo" loading="lazy">
+          </a>
+          <p class="footer__tagline">Nairobi's premier mobile car detailing &amp; house cleaning service. We come to you.</p>
+          <div class="footer__social">
+            <a href="https://wa.me/254710304055" class="footer__social-link" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="footer__col-title">Services</h3>
+          <ul class="footer__col-links" role="list">
+            <li><a href="services.html" class="footer__col-link">Car Detailing</a></li>
+            <li><a href="services.html#house-cleaning" class="footer__col-link">House Cleaning</a></li>
+            <li><a href="pricing.html" class="footer__col-link">Pricing</a></li>
+            <li><a href="service-areas.html" class="footer__col-link">Service Areas</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer__col-title">Company</h3>
+          <ul class="footer__col-links" role="list">
+            <li><a href="about.html" class="footer__col-link">About Us</a></li>
+            <li><a href="gallery.html" class="footer__col-link">Gallery</a></li>
+            <li><a href="testimonials.html" class="footer__col-link">Testimonials</a></li>
+            <li><a href="blog.html" class="footer__col-link">Blog</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer__col-title">Support</h3>
+          <ul class="footer__col-links" role="list">
+            <li><a href="contact.html" class="footer__col-link">Contact Us</a></li>
+            <li><a href="faq.html" class="footer__col-link">FAQ</a></li>
+            <li><a href="booking.html" class="footer__col-link">Book a Service</a></li>
+            <li><a href="privacy-policy.html" class="footer__col-link">Privacy Policy</a></li>
+            <li><a href="terms-of-service.html" class="footer__col-link">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2025 Crystal Crown. All rights reserved. Nairobi, Kenya.</p>
+        <p>
+          <a href="privacy-policy.html" class="footer__col-link">Privacy Policy</a> &nbsp;·&nbsp;
+          <a href="terms-of-service.html" class="footer__col-link">Terms of Service</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Widget -->
+  <div class="whatsapp-widget" id="whatsapp-widget">
+    <div class="whatsapp-widget__bubble" id="whatsapp-bubble" aria-hidden="true">
+      <p>Need help? Chat with us on WhatsApp — we respond fast!</p>
+      <a href="https://wa.me/254710304055" class="btn btn--primary btn--sm" target="_blank" rel="noopener noreferrer">Start Chat</a>
+    </div>
+    <button class="whatsapp-widget__btn" id="whatsapp-btn" aria-label="Open WhatsApp chat" aria-expanded="false">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </button>
+  </div>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <!-- Cookie Banner -->
+  <div class="cookie-banner" id="cookie-banner" role="region" aria-label="Cookie consent">
+    <p>We use cookies to improve your experience. By continuing, you agree to our <a href="privacy-policy.html">Privacy Policy</a>.</p>
+    <div class="cookie-banner__actions">
+      <button class="btn btn--primary btn--sm" id="cookie-accept">Accept</button>
+      <button class="btn btn--ghost btn--sm" id="cookie-decline">Decline</button>
+    </div>
+  </div>
+
+</body>
+</html>
